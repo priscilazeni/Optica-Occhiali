@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/fotoHeader.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contenedorTitulo {
+    margin: 10px;
+}
+
+.titulo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+}
+
+.tituloDos {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.paginas {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.paginas:hover {
+    text-decoration: line-through;
+    color: #fff;
+}
+
+/* GRILLA LOS ANTEOJOS MAS BUSCADOS */
+
+.contenedorBuscado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.buscado {
+    font-size: 40px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 40px;
+}
+
+.loMasBuscado {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px; 
+}
+
+.contenedorImg {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.imgBuscado {
+    width: 50%;
+    height: 100%;
+}
+
+.imgBuscado:nth-child(2) {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s all;
+}
+
+.contenedorImg:hover .imgBuscado:nth-child(2) {
+    opacity: 1;
+    top: 0;
+}
+
+.contenedorDescripcion {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+}
+
+.descripcion {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.comprar {
+    width: 30%;
+    height: 12%;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgba(255, 127, 80, 0.543);
+    border: none;
+}
+
+.comprar:hover {
+    background-color: rgba(95, 158, 160, 0.482);
+    cursor: pointer;
+}
+
+/* ACCESO A LA TIENDA */
+
+.contenedorTienda {
+    height: 50%;
+}
+
+.accesoTienda {
+    position: relative;
+    display: flex;
+    height: 120vh;
+    justify-content: center;
+}
+
+.imgTienda {
+    width: 80%;
+    height: 100%;
+}
+
+.textoTienda {
+    position: absolute;
+    top: 45%;
+    left: 32%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.textoTienda:hover {
+    color: black;
+}
+
+/* PROMOCION ENVIO GARTIS, DESCUENTO Y SEGURIDAD EN LA PAGINA */
+
+.promocionContenedor {
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.promocion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.imgPromocion {
+    width: 13%;
+    height: 60%;
+    margin-bottom: 7px;
+}
+
+.promocionInfo {
+    font-size: 15px;
+    line-height: 10px;
+}
+
+/* GRILLA DE IMAGENES DE CAMPAÑAS */
+
+.contenedorGrillaFotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+
+.lentes {
+    font-size: 35px;
+    margin: 40px;
+    font-weight: bold;
+}
+
+.grillaFotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgGrilla {
+    margin: 10px;
+    height: 50%;
+    width: 90%;
+    border-radius: 20px;
+}
+
+/* FOOTER */
+
+.contenedorFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorRedes {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.redesImg {
+    width: 7%;
+    margin: 10px;
+}
+
+.enlaces {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.enlaces:hover {
+    color: rgba(0, 0, 0, 0.311);
+}
+
+.contenedorCopy {
+    margin: 20px;
+}
+
+/* TIENDA */
+
+.tienda {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    header {
+        width: 100%;
+        height: 270px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo {
+        font-size: 40px;
+    }
+
+    .tituloDos {
+        font-size: 20px;
+    }
+
+    .paginas {
+        font-size: 10px;
+    }
+
+    .contenedorBuscado {
+        margin: 0;
+    }
+
+    .buscado {
+        font-size: 25px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 20px;
+        gap: 0;
+    }
+
+    .loMasBuscado {
+        width: 80%;
+        height: 90%;
+        margin-left: 10%;
+    }
+
+    .imgBuscado {
+        width: 70%;
+    }
+
+    .descripcion {
+        font-size: 15px;
+    }
+
+    .contenedorTienda {
+        height: 40vh;
+    }
+
+    .accesoTienda {
+        height: 100%;
+    }
+
+    .imgTienda {
+        width: 90%;
+        height: 40vh;
+    }
+
+    .textoTienda {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        margin-top: 10px;
+        left: 5%;
+    }
+
+    .imgPromocion {
+        width: 30%;
+        height: 40%;
+    }
+
+    .promocionContenedor {
+        margin: 10px;
+    }
+
+    .promocionInfo {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .lentes {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .enlaces {
+        text-align: center;
+    }
+
+    .copy {
+        text-align: center;
+    }
+
+    .contenedorPaginas {
+        display: flex;
+        flex-direction: column;
+    }
+}
