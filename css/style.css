@@ -12,15 +12,21 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background-image: url(../img/fotoHeader.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.imgHeader {
+    width: 100%;
+    height: 90vh;
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    position: absolute;
+    z-index: 1;
+    top: 5%;
 }
 
 .contenedorTitulo {
@@ -42,6 +48,7 @@ ul {
     display: flex;
     align-items: center;
     padding: 10px;
+    margin-left: 100%;
 }
 
 li {
@@ -57,7 +64,6 @@ li {
 }
 
 .paginas:hover {
-    text-decoration: line-through;
     color: #fff;
 }
 
@@ -67,7 +73,7 @@ li {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 12%;
 }
 
 .buscado {
@@ -86,7 +92,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 15px; 
+    padding: 15px;
 }
 
 .contenedorImg {
@@ -264,9 +270,130 @@ main {
 
 /* TIENDA */
 
+.headerPages {
+    height: 27vh;
+    background-color: black;
+}
+
+.contenedorTituloPages {
+    margin: 10px;
+}
+
+.tituloPages {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 60px;
+    color: #fff;
+}
+
+.tituloDosPages {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.paginasPages {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.paginasPages:hover {
+    color: #ffffff4e;
+}
+
 .tienda {
-    margin-top: 20px;
     margin-bottom: 100px;
+}
+
+/* NOSOTROS */
+
+.nosotros {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.imgNosotros {
+    height: 80vh;
+    border-radius: 10px;
+}
+
+.contenedorTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nosotrosTexto {
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+.contenedorLocales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.infoLocales {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.contenedorLocalesInfo {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.locales {
+    margin: 50px;
+    text-align: center;
+}
+
+/* CONTACTO */
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 20px;
+}
+
+label {
+    margin: 5px;
+}
+
+input {
+    margin: 5px;
+    padding: 10px;
+}
+
+.enviar {
+    width: 20%;
+    margin: 10px 0px;
+    padding: 7px;
+    border: none;
+    background-color: rgba(255, 127, 80, 0.543);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.enviar:hover {
+    background-color: rgba(95, 158, 160, 0.482);
 }
 
 
@@ -275,13 +402,18 @@ main {
 @media (max-width: 768px) {
     header {
         width: 100%;
-        height: 270px;
+        height: 200px;
+    }
+
+    .imgHeader {
+        height: 30vh;
     }
 
     nav {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
 
     .titulo {
@@ -292,12 +424,16 @@ main {
         font-size: 20px;
     }
 
+    ul {
+        margin-left: 0;
+    }
+
     .paginas {
-        font-size: 10px;
+        font-size: 13px;
     }
 
     .contenedorBuscado {
-        margin: 0;
+        margin-top: 30%;
     }
 
     .buscado {
@@ -306,8 +442,7 @@ main {
 
     main {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin-top: 20px;
+        grid-template-columns: repeat(1, 1fr);
         gap: 0;
     }
 
@@ -377,4 +512,68 @@ main {
         display: flex;
         flex-direction: column;
     }
+
+    /* HEADER PAGES */
+
+    .tituloPages {
+        font-size: 40px;
+    }
+
+    .tituloDosPages {
+        font-size: 20px;
+    }
+
+    .paginasPages {
+        font-size: 13px;
+    }
+
+    /* NOSOTROS */
+
+    .imgNosotros {
+        width: 100%;
+        height: 50%;
+    }
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedorTexto {
+        margin-top: 20px;
+    }
+
+    .contenedorLocales {
+        margin-top: 10%;
+    }
+
+    .infoLocales {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contenedorLocalesInfo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .locales {
+        margin: 10px;
+    }
+
+    /* CONTACTO */
+
+    h4 {
+        font-size: 25px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    input {
+        width: 100%;
+    }
+
 }
