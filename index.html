@@ -23,35 +23,40 @@
 
 <body>
 
-    <header>
-        <div class="contenedorImgHeader">
-            <img src="./img/fotoHeader.jpg" alt="" class="imgHeader">
-        </div>
+    <header class="headerPages">
 
         <!-- NAVEGADOR -->
 
-        <nav data-aos="fade-right" data-aos-delay="130" data-aos-duration="1000" data-aos-easing="ease-in-out">
+        <nav data-aos="fade-right" data-aos-delay="130" data-aos-duration="1000" data-aos-easing="ease-in-out"
+            class="navPages">
 
             <!-- TITULOS -->
 
-            <div class="contenedorTitulo">
-                <h1 class="titulo">OCCHIALI</h1>
-                <h2 class="tituloDos">EYEWEAR</h2>
+            <div class="contenedorTituloPages">
+                <h1 class="tituloPages">OCCHIALI</h1>
+                <h2 class="tituloDosPages">EYEWEAR</h2>
             </div>
             <ul>
                 <li>
-                    <a href="./pages/tienda.html" class="paginas">TIENDA</a>
+                    <a href="./pages/tienda.html" class="paginasPages">TIENDA</a>
                 </li>
                 <li>
-                    <a href="./pages/nosotros.html" class="paginas">NOSOTROS</a>
+                    <a href="./pages/nosotros.html" class="paginasPages">NOSOTROS</a>
                 </li>
                 <li>
-                    <a href="./pages/contacto.html" class="paginas">CONTACTO</a>
+                    <a href="./pages/contacto.html" class="paginasPages">CONTACTO</a>
                 </li>
             </ul>
         </nav>
 
     </header>
+
+    <!-- CARUSEL -->
+
+    <div class="carusel">
+        <img src="" id="imgCarusel">
+        <img src="" id="imgCaruselDos">
+    </div>
 
     <!-- GRILLAS CON LOS LENTES MAS BUSCADOS  -->
 
@@ -155,7 +160,7 @@
 
     <section class="contenedorTienda">
         <div class="accesoTienda">
-            <img src="./img/gift.gif" alt="" class="imgTienda">
+            <img src="./img/img-tienda.jpg" alt="" class="imgTienda">
             <a href="./pages/tienda.html">
                 <p class="textoTienda">COMPRAR EN TIENDA</p>
             </a>
@@ -234,6 +239,7 @@
     <script>
         AOS.init();
     </script>
+    <script src="/js/main.js"></script>
 
 </body>
 
