@@ -4,8 +4,8 @@
         "nombre": "otawa",
         "precio": "35000",
         "categoria": "sol",
-        "img": "../img/otawa.jpg",
-        "img2": "../img/otawa-dos.jpg"
+        "img": "../img/OTAWA.jpg",
+        "img2": "../img/OTAWA-DOS.jpg"
     },
 
     {
@@ -13,8 +13,8 @@
         "nombre": "cali",
         "precio": "30000",
         "categoria": "sol",
-        "img": "../img/cali.jpg",
-        "img2": "../img/cali-dos.jpg"
+        "img": "../img/CALI.jpg",
+        "img2": "../img/CALI-DOS.jpg"
     },
 
     {
@@ -127,72 +127,72 @@
         "nombre": "moscu",
         "precio": "38000",
         "categoria": "sol",
-        "img": "../img/moscu.jpg",
-        "img2": "../img/moscu-DOS.jpg"
+        "img": "../img/MOSCU.jpg",
+        "img2": "../img/MOSCU-DOS.jpg"
     },
     {
         "id": "17",
         "nombre": "roma",
         "precio": "39000",
         "categoria": "sol",
-        "img": "../img/roma.jpg",
-        "img2": "../img/roma-DOS.jpg"
+        "img": "../img/ROMA.jpg",
+        "img2": "../img/ROMA-DOS.jpg"
     },
     {
         "id": "18",
         "nombre": "davos",
         "precio": "35000",
         "categoria": "sol",
-        "img": "../img/davos.jpg",
-        "img2": "../img/davos-DOS.jpg"
+        "img": "../img/DAVOS.jpg",
+        "img2": "../img/DAVOS-DOS.jpg"
     },
     {
         "id": "19",
         "nombre": "ottawa",
         "precio": "44000",
         "categoria": "optica",
-        "img": "../img/ottawa-DOS.jpg",
-        "img2": "../img/ottawa.jpg"
+        "img": "../img/OTTAWA-DOS.jpg",
+        "img2": "../img/OTTAWA.jpg"
     },
     {
         "id": "20",
         "nombre": "sundan",
         "precio": "41000",
         "categoria": "opticca",
-        "img": "../img/sundan.jpg",
-        "img2": "../img/sundan-DOS.jpg"
+        "img": "../img/SUNDAN.jpg",
+        "img2": "../img/SUNDAN-DOS.jpg"
     },
     {
         "id": "21",
         "nombre": "nairobi",
         "precio": "43000",
         "categoria": "sol",
-        "img": "../img/nairobi.jpg",
-        "img2": "../img/nairobi-DOS.jpg"
+        "img": "../img/NAIROBI.jpg",
+        "img2": "../img/NAIROBI-DOS.jpg"
     },
     {
         "id": "22",
         "nombre": "menorca",
         "precio": "35000",
         "categoria": "optica",
-        "img": "../img/menorca.jpg",
-        "img2": "../img/menorca-DOS.jpg"
+        "img": "../img/MENORCA.jpg",
+        "img2": "../img/MENORCA-DOS.jpg"
     },
     {
         "id": "23",
         "nombre": "braku",
         "precio": "38000",
         "categoria": "sol",
-        "img": "../img/baku.jpg",
-        "img2": "../img/baku-DOS.jpg"
+        "img": "../img/BAKU.jpg",
+        "img2": "../img/BAKU-DOS.jpg"
     },
     {
         "id": "24",
         "nombre": "moca",
         "precio": "41000",
         "categoria": "sol",
-        "img": "../img/moca.jpg",
-        "img2": "../img/moca-DOS.jpg"
+        "img": "../img/MOCA.jpg",
+        "img2": "../img/MOCA-DOS.jpg"
     }
 
 ]
