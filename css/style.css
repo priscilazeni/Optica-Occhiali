@@ -188,7 +188,7 @@ main {
 .textoTienda {
     position: absolute;
     top: 45%;
-    left: 32%;
+    left: 30%;
     color: rgb(255, 127, 80);
     font-size: 50px;
     font-weight: bold;
@@ -432,6 +432,12 @@ input {
     padding: 10px;
 }
 
+::placeholder {
+    font-family: 'Cabin', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
 .enviar {
     width: 20%;
     margin: 10px 0px;
@@ -530,6 +536,7 @@ input {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 0;
+        margin-bottom: 20px;
     }
 
     .loMasBuscado {
@@ -559,7 +566,7 @@ input {
         width: 100%;
         font-size: 25px;
         text-align: center;
-        left: 5%;
+        left: 3%;
     }
 
     .imgPromocion {
@@ -572,6 +579,7 @@ input {
         flex-direction: column;
         width: 70%;
         margin-left: 15%;
+        margin-top: 30px;
     }
 
     .promocionInfo {
