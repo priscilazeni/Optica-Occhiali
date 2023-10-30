@@ -30,7 +30,7 @@ const masBuscado = document.getElementById ("masBuscado");
 
 // llamo los a los 8 primeros productos alojados en el json y los guardo en el array productosMasBuscados, llamo a la funcion mostrarProductosMasBuscados que va a renderizar las card
 
-fetch('../JSON/data.json')   
+fetch('./JSON/data.json')   
     .then(response => response.json())
     .then(data => {
         productosMasBuscados = data.slice(0,8);
