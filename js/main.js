@@ -44,18 +44,18 @@ fetch('./JSON/data.json')
 
     function mostrarProductosMasBuscados(array) {
         masBuscado.innerHTML = '';
-        array.forEach((productos) => {
+        array.forEach((productosMasBuscados) => {
             const divProd = document.createElement("div");
             divProd.classList.add("loMasBuscado");
             divProd.innerHTML = `
         
             <div class="contenedorImg">
-                <img src="${productos.img}" alt="${productos.img}" class="imgBuscado">
-                <img src="${productos.img2}" alt="${productos.img}" class="imgBuscado">
+                <img src="${productosMasBuscados.img}" alt="${productosMasBuscados.img}" class="imgBuscado">
+                <img src="${productosMasBuscados.img2}" alt="${productosMasBuscados.img}" class="imgBuscado">
             </div>
             <div class="contenedorDescripcion">
-                <p class="descripcion">${productos.nombre.toUpperCase()}</p>
-                <p class="descripcion">$${productos.precio}</p>
+                <p class="descripcion">${productosMasBuscados.nombre.toUpperCase()}</p>
+                <p class="descripcion">$${productosMasBuscados.precio}</p>
             </div>
             <button class="comprar">COMPRAR</button>
         `
