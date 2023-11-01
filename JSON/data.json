@@ -4,8 +4,8 @@
         "nombre": "otawa",
         "precio": "35000",
         "categoria": "sol",
-        "img": "../img/OTAWA.jpg",
-        "img2": "../img/OTAWA-DOS.jpg"
+        "img": "img/OTAWA.jpg",
+        "img2": "img/OTAWA-DOS.jpg"
     },
 
     {
@@ -13,8 +13,8 @@
         "nombre": "cali",
         "precio": "30000",
         "categoria": "sol",
-        "img": "../img/CALI.jpg",
-        "img2": "../img/CALI-DOS.jpg"
+        "img": "img/CALI.jpg",
+        "img2": "img/CALI-DOS.jpg"
     },
 
     {
@@ -22,8 +22,8 @@
         "nombre": "porto",
         "precio": "35000",
         "categoria": "optica",
-        "img": "../img/Porto-C2-T1-1536x1536.jpg",
-        "img2": "../img/Porto-C2-T2-1-1536x1536.jpg"
+        "img": "img/Porto-C2-T1-1536x1536.jpg",
+        "img2": "img/Porto-C2-T2-1-1536x1536.jpg"
     },
 
     {
@@ -31,168 +31,168 @@
         "nombre": "oslo",
         "precio": "40000",
         "categoria": "sol",
-        "img": "../img/Oslo-C2-T1.jpg",
-        "img2": "../img/Oslo-C2-T2.jpg"
+        "img": "img/Oslo-C2-T1.jpg",
+        "img2": "img/Oslo-C2-T2.jpg"
     },
     {
         "id": "5",
         "nombre": "malaui",
         "precio": "40000",
         "categoria": "sol",
-        "img": "../img/Kenia-C3-T1-1536x1536.jpg",
-        "img2": "../img/Kenia-C3-T2-1536x1536.jpg"
+        "img": "img/Kenia-C3-T1-1536x1536.jpg",
+        "img2": "img/Kenia-C3-T2-1536x1536.jpg"
     },
     {
         "id": "6",
         "nombre": "kenia",
         "precio": "25000",
         "categoria": "optica",
-        "img": "../img/Oslo-C2-T1.jpg",
-        "img2": "../img/Oslo-C2-T2.jpg"
+        "img": "img/Oslo-C2-T1.jpg",
+        "img2": "img/Oslo-C2-T2.jpg"
     },
     {
         "id": "7",
         "nombre": "milo",
         "precio": "35000",
         "categoria": "sol",
-        "img": "../img//MILO.jpg",
-        "img2": "../img/MILO-DOS.jpg"
+        "img": "img//MILO.jpg",
+        "img2": "img/MILO-DOS.jpg"
     },
     {
         "id": "8",
         "nombre": "albania",
         "precio": "43000",
         "categoria": "sol",
-        "img": "../img/3R6A6145.jpg",
-        "img2": "../img/Albania-C5-T2-web.jpg"
+        "img": "img/3R6A6145.jpg",
+        "img2": "img/Albania-C5-T2-web.jpg"
     },
     {
         "id": "9",
         "nombre": "rabat",
         "precio": "38000",
         "categoria": "sol",
-        "img": "../img/3R6A6156.jpg",
-        "img2": "../img/Rabat-C4-T2-web.jpg"
+        "img": "img/3R6A6156.jpg",
+        "img2": "img/Rabat-C4-T2-web.jpg"
     },
     {
         "id": "10",
         "nombre": "beirut",
         "precio": "43000",
         "categoria": "optica",
-        "img": "../img/BEIRUT-DOS.jpg",
-        "img2": "../img/BEIRUT.jpg"
+        "img": "img/BEIRUT-DOS.jpg",
+        "img2": "img/BEIRUT.jpg"
     },
     {
         "id": "11",
         "nombre": "cook",
         "precio": "37000",
         "categoria": "optica",
-        "img": "../img/COOK.jpg",
-        "img2": "../img/COOK-DOS.jpg"
+        "img": "img/COOK.jpg",
+        "img2": "img/COOK-DOS.jpg"
     },
     {
         "id": "12",
         "nombre": "regina",
         "precio": "40000",
         "categoria": "sol",
-        "img": "../img/REGINA.jpg",
-        "img2": "../img/REGINA-DOS.jpg"
+        "img": "img/REGINA.jpg",
+        "img2": "img/REGINA-DOS.jpg"
     },
     {
         "id": "13",
         "nombre": "albania",
         "precio": "43000",
         "categoria": "sol",
-        "img": "../img/3R6A6145.jpg",
-        "img2": "../img/Albania-C5-T2-web.jpg"
+        "img": "img/3R6A6145.jpg",
+        "img2": "img/Albania-C5-T2-web.jpg"
     },
     {
         "id": "14",
         "nombre": "dali",
         "precio": "45000",
         "categoria": "optica",
-        "img": "../img/DALI.jpg",
-        "img2": "../img/DALI-DOS.jpg"
+        "img": "img/DALI.jpg",
+        "img2": "img/DALI-DOS.jpg"
     },
     {
         "id": "15",
         "nombre": "maldivas",
         "precio": "35000",
         "categoria": "sol",
-        "img": "../img/MALDIVAS.jpg",
-        "img2": "../img/MALDIVAS-DOS.jpg"
+        "img": "img/MALDIVAS.jpg",
+        "img2": "img/MALDIVAS-DOS.jpg"
     },
     {
         "id": "16",
         "nombre": "moscu",
         "precio": "38000",
         "categoria": "sol",
-        "img": "../img/MOSCU.jpg",
-        "img2": "../img/MOSCU-DOS.jpg"
+        "img": "img/MOSCU.jpg",
+        "img2": "img/MOSCU-DOS.jpg"
     },
     {
         "id": "17",
         "nombre": "roma",
         "precio": "39000",
         "categoria": "sol",
-        "img": "../img/ROMA.jpg",
-        "img2": "../img/ROMA-DOS.jpg"
+        "img": "img/ROMA.jpg",
+        "img2": "img/ROMA-DOS.jpg"
     },
     {
         "id": "18",
         "nombre": "davos",
         "precio": "35000",
         "categoria": "sol",
-        "img": "../img/DAVOS.jpg",
-        "img2": "../img/DAVOS-DOS.jpg"
+        "img": "img/DAVOS.jpg",
+        "img2": "img/DAVOS-DOS.jpg"
     },
     {
         "id": "19",
         "nombre": "ottawa",
         "precio": "44000",
         "categoria": "optica",
-        "img": "../img/OTTAWA-DOS.jpg",
-        "img2": "../img/OTTAWA.jpg"
+        "img": "img/OTTAWA-DOS.jpg",
+        "img2": "img/OTTAWA.jpg"
     },
     {
         "id": "20",
         "nombre": "sundan",
         "precio": "41000",
         "categoria": "opticca",
-        "img": "../img/SUNDAN.jpg",
-        "img2": "../img/SUNDAN-DOS.jpg"
+        "img": "img/SUNDAN.jpg",
+        "img2": "img/SUNDAN-DOS.jpg"
     },
     {
         "id": "21",
         "nombre": "nairobi",
         "precio": "43000",
         "categoria": "sol",
-        "img": "../img/NAIROBI.jpg",
-        "img2": "../img/NAIROBI-DOS.jpg"
+        "img": "img/NAIROBI.jpg",
+        "img2": "img/NAIROBI-DOS.jpg"
     },
     {
         "id": "22",
         "nombre": "menorca",
         "precio": "35000",
         "categoria": "optica",
-        "img": "../img/MENORCA.jpg",
-        "img2": "../img/MENORCA-DOS.jpg"
+        "img": "img/MENORCA.jpg",
+        "img2": "img/MENORCA-DOS.jpg"
     },
     {
         "id": "23",
         "nombre": "braku",
         "precio": "38000",
         "categoria": "sol",
-        "img": "../img/BAKU.jpg",
-        "img2": "../img/BAKU-DOS.jpg"
+        "img": "img/BAKU.jpg",
+        "img2": "img/BAKU-DOS.jpg"
     },
     {
         "id": "24",
         "nombre": "moca",
         "precio": "41000",
         "categoria": "sol",
-        "img": "../img/MOCA.jpg",
-        "img2": "../img/MOCA-DOS.jpg"
+        "img": "img/MOCA.jpg",
+        "img2": "img/MOCA-DOS.jpg"
     }
 
 ]

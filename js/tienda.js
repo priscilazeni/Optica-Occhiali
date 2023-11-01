@@ -24,8 +24,8 @@ function mostrarProductos(array) {
         divProd.innerHTML = `
     
         <div class="contenedorImg">
-            <img src="${productos.img}" alt="${productos.img}" class="imgBuscado">
-            <img src="${productos.img2}" alt="${productos.img}" class="imgBuscado">
+            <img src="../${productos.img}" alt="${productos.img}" class="imgBuscado">
+            <img src="../${productos.img2}" alt="${productos.img}" class="imgBuscado">
         </div>
         <div class="contenedorDescripcion">
             <p class="descripcion">${productos.nombre.toUpperCase()}</p>
